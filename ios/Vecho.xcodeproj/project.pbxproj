@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000020000000012345678 /* VechoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000010000000012345678 /* VechoApp.swift */; };
+		000000020000000112345678 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000010000000112345678 /* DesignTokens.swift */; };
+		000000020000000212345678 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000010000000212345678 /* ChatMessage.swift */; };
+		000000020000000312345678 /* SessionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000010000000312345678 /* SessionItem.swift */; };
+		000000020000000412345678 /* WebSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000010000000412345678 /* WebSocketService.swift */; };
+		000000020000000512345678 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000010000000512345678 /* APIService.swift */; };
+		000000020000000612345678 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000010000000612345678 /* ContentView.swift */; };
+		000000020000000712345678 /* AgentBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000010000000712345678 /* AgentBarView.swift */; };
+		000000020000000812345678 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000010000000812345678 /* ChatView.swift */; };
+		000000020000000912345678 /* SessionDrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000010000000912345678 /* SessionDrawerView.swift */; };
+		000000020000000A12345678 /* SessionItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000010000000A12345678 /* SessionItemRow.swift */; };
+		000000020000000B12345678 /* InputBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000010000000B12345678 /* InputBarView.swift */; };
+		000000020000000C12345678 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000010000000C12345678 /* OnboardingView.swift */; };
+		000000020000000D12345678 /* UsageStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000010000000D12345678 /* UsageStats.swift */; };
+		000000020000000E12345678 /* UsageStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000010000000E12345678 /* UsageStatsView.swift */; };
+		000000020000000F12345678 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000010000000F12345678 /* HomeView.swift */; };
+		000000020000006412345678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000010000006412345678 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000000010000000012345678 /* VechoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VechoApp.swift"; sourceTree = "<group>"; };
+		000000010000000112345678 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DesignTokens.swift"; sourceTree = "<group>"; };
+		000000010000000212345678 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/ChatMessage.swift"; sourceTree = "<group>"; };
+		000000010000000312345678 /* SessionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/SessionItem.swift"; sourceTree = "<group>"; };
+		000000010000000412345678 /* WebSocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/WebSocketService.swift"; sourceTree = "<group>"; };
+		000000010000000512345678 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/APIService.swift"; sourceTree = "<group>"; };
+		000000010000000612345678 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/ContentView.swift"; sourceTree = "<group>"; };
+		000000010000000712345678 /* AgentBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/AgentBarView.swift"; sourceTree = "<group>"; };
+		000000010000000812345678 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/ChatView.swift"; sourceTree = "<group>"; };
+		000000010000000912345678 /* SessionDrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/SessionDrawerView.swift"; sourceTree = "<group>"; };
+		000000010000000A12345678 /* SessionItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/SessionItemRow.swift"; sourceTree = "<group>"; };
+		000000010000000B12345678 /* InputBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/InputBarView.swift"; sourceTree = "<group>"; };
+		000000010000000C12345678 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/OnboardingView.swift"; sourceTree = "<group>"; };
+		000000010000000D12345678 /* UsageStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/UsageStats.swift"; sourceTree = "<group>"; };
+		000000010000000E12345678 /* UsageStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/UsageStatsView.swift"; sourceTree = "<group>"; };
+		000000010000000F12345678 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/HomeView.swift"; sourceTree = "<group>"; };
+		000000010000006312345678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		000000010000006412345678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		000000030000000112345678 /* Vecho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vecho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000040000000212345678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000050000000112345678 = {
+			isa = PBXGroup;
+			children = (
+				000000010000000012345678 /* VechoApp.swift */,
+				000000010000000112345678 /* DesignTokens.swift */,
+				000000010000000212345678 /* ChatMessage.swift */,
+				000000010000000312345678 /* SessionItem.swift */,
+				000000010000000412345678 /* WebSocketService.swift */,
+				000000010000000512345678 /* APIService.swift */,
+				000000010000000612345678 /* ContentView.swift */,
+				000000010000000712345678 /* AgentBarView.swift */,
+				000000010000000812345678 /* ChatView.swift */,
+				000000010000000912345678 /* SessionDrawerView.swift */,
+				000000010000000A12345678 /* SessionItemRow.swift */,
+				000000010000000B12345678 /* InputBarView.swift */,
+				000000010000000C12345678 /* OnboardingView.swift */,
+				000000010000000D12345678 /* UsageStats.swift */,
+				000000010000000E12345678 /* UsageStatsView.swift */,
+				000000010000000F12345678 /* HomeView.swift */,
+				000000010000006412345678 /* Assets.xcassets */,
+				000000010000006312345678 /* Info.plist */,
+				000000050000000212345678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000050000000212345678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000030000000112345678 /* Vecho.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000060000000112345678 /* Vecho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000090000000112345678 /* Build configuration list for PBXNativeTarget "Vecho" */;
+			buildPhases = (
+				000000040000000112345678 /* Sources */,
+				000000040000000212345678 /* Frameworks */,
+				000000040000000312345678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vecho;
+			productName = Vecho;
+			productReference = 000000030000000112345678 /* Vecho.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000070000000112345678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 000000090000000212345678 /* Build configuration list for PBXProject "Vecho" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh-Hans;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				zh-Hans,
+				Base,
+			);
+			mainGroup = 000000050000000112345678;
+			productRefGroup = 000000050000000212345678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000060000000112345678 /* Vecho */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000040000000312345678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000020000006412345678 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000040000000112345678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000020000000012345678 /* VechoApp.swift in Sources */,
+				000000020000000112345678 /* DesignTokens.swift in Sources */,
+				000000020000000212345678 /* ChatMessage.swift in Sources */,
+				000000020000000312345678 /* SessionItem.swift in Sources */,
+				000000020000000412345678 /* WebSocketService.swift in Sources */,
+				000000020000000512345678 /* APIService.swift in Sources */,
+				000000020000000612345678 /* ContentView.swift in Sources */,
+				000000020000000712345678 /* AgentBarView.swift in Sources */,
+				000000020000000812345678 /* ChatView.swift in Sources */,
+				000000020000000912345678 /* SessionDrawerView.swift in Sources */,
+				000000020000000A12345678 /* SessionItemRow.swift in Sources */,
+				000000020000000B12345678 /* InputBarView.swift in Sources */,
+				000000020000000C12345678 /* OnboardingView.swift in Sources */,
+				000000020000000D12345678 /* UsageStats.swift in Sources */,
+				000000020000000E12345678 /* UsageStatsView.swift in Sources */,
+				000000020000000F12345678 /* HomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		000000080000000312345678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000000080000000412345678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000000080000000112345678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pandac.vecho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000000080000000212345678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pandac.vecho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000090000000212345678 /* Build configuration list for PBXProject "Vecho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000080000000312345678 /* Debug */,
+				000000080000000412345678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000090000000112345678 /* Build configuration list for PBXNativeTarget "Vecho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000080000000112345678 /* Debug */,
+				000000080000000212345678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 000000070000000112345678 /* Project object */;
+}
