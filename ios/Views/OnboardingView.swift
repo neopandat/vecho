@@ -128,10 +128,14 @@ public struct OnboardingView: View {
     private var stepOneConnectView: some View {
         ScrollView(showsIndicators: false) {
             VStack(alignment: .leading, spacing: DesignTokens.Spacing.md) {
-                // 一键复制指令发给本地 Agent
-                VStack(alignment: .leading, spacing: 10) {
-                    HStack {
-                        Text("让 Mac 智能体启动服务")
+                // 一键复制指令发给电脑 AI 助手
+                VStack(alignment: .leading, spacing: 12) {
+                    HStack(spacing: 6) {
+                        Image(systemName: "sparkles")
+                            .font(.system(size: 14))
+                            .foregroundColor(DesignTokens.Colors.accent)
+
+                        Text("复制命令给电脑上的 AI 助手")
                             .font(.system(size: 14, weight: .semibold))
                             .foregroundColor(.white)
 
@@ -144,7 +148,7 @@ public struct OnboardingView: View {
                         } label: {
                             HStack(spacing: 4) {
                                 Image(systemName: hasCopiedPrompt ? "checkmark.circle.fill" : "doc.on.doc")
-                                Text(hasCopiedPrompt ? "已复制" : "复制指令")
+                                Text(hasCopiedPrompt ? "已复制" : "复制给 AI 助手")
                             }
                             .font(.system(size: 13, weight: .semibold))
                             .foregroundColor(hasCopiedPrompt ? DesignTokens.Colors.success : DesignTokens.Colors.accent)
@@ -156,6 +160,16 @@ public struct OnboardingView: View {
                         .buttonStyle(.plain)
                         .frame(minHeight: 44)
                     }
+
+                    // 极简操作指引
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("• 第 1 步：点击右上角复制下方命令")
+                        Text("• 第 2 步：粘贴给电脑上打开的 AI 助手（如 Cursor、Claude、Antigravity 等）")
+                        Text("• 第 3 步：AI 助手会自动下载部署，并把电脑 IP 回复给你")
+                    }
+                    .font(.system(size: 11))
+                    .foregroundColor(DesignTokens.Colors.textSecondary)
+                    .lineSpacing(2)
 
                     // 完整显示指令，绝不截断
                     Text(agentPromptText)
@@ -210,7 +224,7 @@ public struct OnboardingView: View {
                         .font(.system(size: 13))
                         .foregroundColor(DesignTokens.Colors.accent)
                         .padding(.top, 2)
-                    Text("将上方指令发送给 Mac 智能体，智能体执行后会告诉你电脑 IP。将该 IP 填入下方，服务端口保持 31188，点击「测试连接」即可。")
+                    Text("将上方命令复制并粘贴给电脑上的 AI 助手，它会自动完成下载并告诉你电脑 IP。将该 IP 填入下方输入框，点击「测试连接」即可。")
                         .font(.system(size: 12))
                         .foregroundColor(DesignTokens.Colors.textSecondary)
                         .lineSpacing(2)
